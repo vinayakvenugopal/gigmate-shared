@@ -1,26 +1,26 @@
 export {IAuth,IAuthBuyerMessageDetails,IAuthDocument,IAuthPayload,IAuthResponse,IAuthUser,IEmailMessageDetails,IForgotPassword,IReduxAddAuthUser,IReduxAuthPayload,IReduxLogout,IResetPassword,ISignInPayload,ISignUpPayload} 
-from './interfaces/auth.interface'
+from './auth.interface'
 
-export {IBuyerDocument,IReduxBuyer} from './interfaces/buyer.interface'
+export {IBuyerDocument,IReduxBuyer} from './buyer.interface'
 
 export {IChatBoxProps,IChatBuyerProps,IChatMessageProps,IChatSellerProps,IConversationDocument,IMessageDetails,IMessageDocument} 
-from "./interfaces/chat.interface"
+from "./chat.interface"
 
-export {IEmailLocals} from './interfaces/email.interface'
+export {IEmailLocals} from './email.interface'
 
 export {GigType,ICreateGig,IGigCardItems,IGigContext,IGigInfo,IGigTopProps,IGigViewReviewsProps,IGigsProps,ISelectedBudget,ISellerGig}
- from './interfaces/gig.interface'
+ from './gig.interface'
 
 export {IDeliveredWork,IExtendedDelivery,IOffer,IOrderDocument,IOrderEvents,IOrderMessage,IOrderNotifcation,IOrderReview} 
-from './interfaces/order.interface'
+from './order.interface'
 
 export {IRatingCategories,IRatingCategoryItem,IRatingTypes,IReviewDocument,IReviewMessageDetails} 
-from './interfaces/review.interface'
+from './review.interface'
 
 export {IHitsTotal,IPaginateProps,IQueryList,IQueryString,ISearchResult,ITerm} 
-from './interfaces/search.interface'
+from './search.interface'
 
-export {SellerType,ICertificate,IEducation,IExperience,ILanguage,ISellerDocument} from './interfaces/seller.interface'
+export {SellerType,ICertificate,IEducation,IExperience,ILanguage,ISellerDocument} from './seller.interface'
 
 export {videoUpload,uploads} from './cloudinary'
 
